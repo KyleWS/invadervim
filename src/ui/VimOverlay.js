@@ -26,7 +26,7 @@ export default class VimOverlay {
 
   setup() {
     const width = 400;
-    const height = 300;
+    const height = 350;
     const x = this.scene.game.config.width / 2;
     const y = this.scene.game.config.height / 2;
 

@@ -71,7 +71,7 @@ export default class MainScene extends Phaser.Scene {
     }).setOrigin(0.5);
 
     // Add instructions
-    this.add.text(400, 100, 'Press : then q to shoot!', {
+    this.add.text(400, 100, 'Press : q to shoot!', {
       fontSize: '16px',
       fill: '#fff'
     }).setOrigin(0.5);
@@ -81,7 +81,7 @@ export default class MainScene extends Phaser.Scene {
     const rows = 3;
     const enemiesPerRow = 6;
     const startX = 200;
-    const startY = 150;
+    const startY = 160;
     
     for (let row = 0; row < rows; row++) {
       for (let col = 0; col < enemiesPerRow; col++) {
