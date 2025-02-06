@@ -283,6 +283,7 @@ export default class VimOverlay {
           ':q - To shoot your laser:',
           '1. Press Shift + ; for :',
           '2. Then press q',
+          '3. Submit with Enter',
           '',
           'Good luck, commander!',
           '~',
