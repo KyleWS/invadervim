@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "v2.playinvdaervim.com"
+        }
+      ],
+      "destination": "https://invadervim2.vercel.app/$1",
+      "permanent": true
+    }
+  ]
+}
